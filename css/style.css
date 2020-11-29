@@ -1,0 +1,428 @@
+body{
+    padding:0;
+    margin:0;
+    background:#fff;
+    position:relative;
+    font-family: 'Nunito', sans-serif;
+}
+body a{
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+a:hover{
+    text-decoration:none;
+}
+h2,h3,h4,h5,h6{
+    margin:0;   
+    font-family: 'Exo 2', sans-serif;
+}
+.navbar-header > h1 {
+    margin:0;   
+    font-family: 'URW Chancery L', cursive;
+    letter-spacing: -1.3px;
+}   
+p{
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing:1px;
+    color:#999;
+    line-height:1.8em;
+    font-size:1em;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+label{
+    margin:0;
+}
+.first_section{
+    background: #E31E25;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.navbar-right {
+    margin-right: 0;
+}
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color:#ffb71c;
+    background:none;
+}
+.navbar-nav > li > a {
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.navbar-nav > li > a {
+    margin: 0 1.5em;
+    margin-top: 1.5em;
+    padding: 0 0 0.5em;
+    text-transform: uppercase;
+}
+.navbar-nav > li > a:hover{
+    color:#ffb71c;
+    background: none;
+}
+.navbar-nav > li > a:focus {
+    color: #ffb71c;
+    outline:none;
+}
+nav.navbar {
+    background: none;
+    padding: 1.7em 0 0.2em 0;
+}
+.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
+    color: #262c38;
+    background: none;
+}
+.navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-nav  > .active.open > a:focus {
+    background:transparent;
+    color: #fff;
+}
+.navbar-right {
+    float: ;
+    padding-right: 3em;
+}
+div#toggle {
+    margin-top: .3em;
+    padding-left: 4em;
+}
+a.navbar-brand {
+    color: #fff!important;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    font-size: 0.9em;
+    font-weight: 700;
+    font-style: italic;
+}
+a.navbar-brand i{
+    color:#ffb71c;
+}
+.effect-3 {
+    overflow: hidden;
+}
+.effect-3:before {
+    left: -1px;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background:#ffb71c;
+    content: '';
+    position: absolute;
+    transition: transform .5s ease;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+}
+.effect-3:hover:before {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+}
+
+.second_section {
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+.second_section::after {
+    content: "";
+    background: url(../img/back.jpeg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin-top: 4em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.bdy_left > h1 {
+    font-weight: 700;
+    color: #E31E25;
+    text-align: center;
+    padding-top: 43%;
+    font-family: 'Luminari' , fantasy;
+    letter-spacing: 3px;
+    text-shadow: #ffb71c;
+}
+.bdy_right > h2 > i {
+    color: #E31E25;
+}
+.bdy_right > h2 {
+    text-align: center;
+    padding-top: 30%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.bdy_right > h4 {
+    padding-top: 10px;
+    font-weight: 700;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+.bdy_right > h4 > i {
+    color: #E31E25;
+    padding-right: 5px;
+}
+.third_section {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: 45.25%;
+    height: 45px;
+    background: #ffb71c;
+    z-index: 2;
+}
+.third_section > p {
+    text-align: center;
+    size: 20px;
+    padding-top: 10px;
+    font-family: 'URW Chancery L', cursive;
+    color: #fff;
+}
+.log-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%;
+    padding-bottom: 30px;
+}
+.sign-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 50%;
+    padding-bottom: 30px;
+}
+input{
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: 'Luminari' , fantasy;
+    border-radius: 20px;
+}
+input[type=text],input[type=password] {
+    width: 90%;
+    padding: 12 20px;
+    margin: 8 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input[type=text]:focus,input[type=password]:focus{
+    outline: none;
+}
+.btn {
+    background-color: #4CAF50;
+    font-family: 'Luminari' , fantasy;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 8 16px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    font-size: 20px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.imgcontainer,  .imgcontainer > div{
+    text-align: center;
+    margin: 24 0 12 0px;
+    position: relative;
+    background-color: #fefefe;
+}
+.avatar {
+    margin-top: 15px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.log, .sign, .reset, .delt {
+    display: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+.close{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+.animate{
+    animation: zoom 0.6s;
+}
+
+.sidenav{
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 7px;
+}
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border-bottom: 1px solid #818181;
+}
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+.pro, .epro{
+    position: absolute;
+    display: block;
+    z-index: 3;
+    margin-left: 180px;
+    padding: 10px 10px;
+}
+.gallary img{
+    width: 150px;
+    height: 150px; 
+    padding: 5px;
+}
+
+.sho{
+    display: block;
+}
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    margin-top: 0;
+}
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.time-right {
+    float: right;
+    color: #aaa;
+}
+.time-left {
+    float: left;
+    color: #999;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@keyframes zoom {
+    from{transform: scale(0)} to{transform: scale(1);}
+}
+@media(max-width: 767px){
+    .navbar-toggle {
+        margin: 0.7em 1em 0;
+    }
+    .navbar-toggle {
+        border: none;
+        background: none;
+        border-radius: 0;
+        color: #fff;
+    }
+    .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        background:rgba(0, 0, 0, 0.83);
+        padding:0em 0;
+        margin-top: 2em;
+    }
+    .navbar-toggle:hover, .navbar-toggle:focus {
+        background:none;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #002147;
+    }
+    .navbar-right {
+        width: 100%;
+    }
+    .navbar-collapse, .navbar-form {
+        border: none;
+    }
+    .navbar-nav {
+        margin: 0;
+        text-align:center;
+    }
+    .navbar-nav > li > a {
+        padding: 5px 25px;
+        font-size: 13px;
+        display: inline-block;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: #0ac876;
+        padding:10px 0;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+    .responsive {
+        position: relative;
+    }
+    .responsive > li > a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
